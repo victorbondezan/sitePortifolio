@@ -33,13 +33,13 @@ const Projects: React.FC<ModalProps> = ({ children }) => {
         <React.Fragment>
           <img src="https://uploaddeimagens.com.br/images/004/419/401/original/interrogacao.jpg?1680728182"
             alt="InterrogaçaoUm" onClick={toggle} />
-          <Modal isShown={isShown} hide={toggle} modalContent={content} headerText={'Ainda nã0o'} tecnologiText={'React e TypeScript'} descriptionText={'ainda não'}
+          <Modal isShown={isShown} hide={toggle} modalContent={content} headerText={'Ainda não'} tecnologiText={'React e TypeScript'} descriptionText={'ainda não'}
             contentImg={"https://uploaddeimagens.com.br/images/004/419/401/original/interrogacao.jpg?1680728182"} />
         </React.Fragment>
         <React.Fragment>
           <img src="https://uploaddeimagens.com.br/images/004/419/406/original/interrogacao3.jpg?1680728252"
             alt="InterrogaçaoUm" onClick={toggle} />
-          <Modal isShown={isShown} hide={toggle} modalContent={content} headerText={'Ainda nã00o'} tecnologiText={'A-Frame'} descriptionText={'ainda não'}
+          <Modal isShown={isShown} hide={toggle} modalContent={content} headerText={'Ainda não'} tecnologiText={'A-Frame'} descriptionText={'ainda não'}
             contentImg={"https://uploaddeimagens.com.br/images/004/419/401/original/interrogacao.jpg?1680728182"} />
         </React.Fragment>
         <React.Fragment>

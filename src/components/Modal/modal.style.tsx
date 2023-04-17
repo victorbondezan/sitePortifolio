@@ -52,7 +52,7 @@ export const HeaderText = styled.div`
 
 `;
 
-export const ParagraphText = styled.p`
+export const ParagraphText = styled.div`
   color: #fff;
   font-size: 5px;
   align-self: center;
