@@ -1,7 +1,7 @@
 {
   "name": "portifolio",
   "private": true,
-  "homepage": "https://github.com/victorbondezan/meuPortifolio/",
+  "homepage": "./",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
