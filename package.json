@@ -1,7 +1,7 @@
 {
   "name": "portifolio",
   "private": true,
-  "homepage": "./",
+  "homepage": "./dist",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
