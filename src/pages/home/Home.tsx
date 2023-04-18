@@ -13,7 +13,7 @@ export const Home = () => {
 
         <S.ContainerDivContentDev>
           <S.ContainerDivContentDevText>
-            <S.StyleContentParagraph>&nbsp;&nbsp;&nbsp;&nbsp; Olá, meu nome é Victor Bondezan. Sou programador Front-End
+            <S.StyleContentParagraph>&nbsp;&nbsp;&nbsp;&nbsp; Oláa, meu nome é Victor Bondezan. Sou programador Front-End
               focado em experiencia 3D, trabalhei e estudei por volta de 1 ano e meio na área, minha
               experiencia última ocorreu em 2022 para a editora Eureka Digital, onde desenvolvi um projeto de foco
               educacional, criando diversos jogos e mesclando em uma mesma plataforma para potencializar o aprendizado de
