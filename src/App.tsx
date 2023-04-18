@@ -25,7 +25,7 @@ function App() {
             <Route path='Projetos' element={<Projects isOpen={false} onClose={function (): void {
               throw new Error('Function not implemented.')
             }} children={undefined} />} />
-            <Route path='Habilidades' element={<Habilities />} />
+            <Route path='Habilidades' element={<Habilities js={[]} />} />
           </Routes>
         </BrowserRouter>
       </div>
