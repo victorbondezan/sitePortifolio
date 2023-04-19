@@ -38,8 +38,10 @@ export const ContainerUl = styled.ul`
 
 export const ContainerLi = styled.li`
   list-style: none;
+  text-decoration: underline;
+  text-decoration-color: rgba(0, 0, 0, 0.20);
+  //text-decoration: none;
   color: white;
-
   //@media(max-width: 510px){ font-size:5px; }
   
   

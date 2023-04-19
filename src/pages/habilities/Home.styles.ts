@@ -7,8 +7,7 @@ export const Container = styled.section`
     align-items: center;
     flex-direction: column;    
     gap: 18px;
-   
-
+   //overflow-Y: scroll;   
     >button{
         color: white;
     }

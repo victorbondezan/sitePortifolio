@@ -16,10 +16,10 @@ export const Navbar = () => {
     <S.Container>
       <S.ContainerDiv>
         <S.ContainerUl>
-          <NavLink to="/"> <S.ContainerLi> Inicio</S.ContainerLi> </NavLink>
-          <NavLink to="Sobre"> <S.ContainerLi> Sobre</S.ContainerLi> </NavLink>
-          <NavLink to="Projetos"> <S.ContainerLi> Projetos</S.ContainerLi> </NavLink>
-          <NavLink to="Habilidades"> <S.ContainerLi> Habilidades</S.ContainerLi> </NavLink>
+          <NavLink to="/"> <S.ContainerLi> <p>Inicio</p> </S.ContainerLi> </NavLink>
+          <NavLink to="Sobre"> <S.ContainerLi> <p>Sobre</p> </S.ContainerLi> </NavLink>
+          <NavLink to="Projetos"> <S.ContainerLi> <p>Projetos</p> </S.ContainerLi> </NavLink>
+          <NavLink to="Habilidades"> <S.ContainerLi> <p>Habilidades</p> </S.ContainerLi> </NavLink>
         </S.ContainerUl>
       </S.ContainerDiv>
     </S.Container>

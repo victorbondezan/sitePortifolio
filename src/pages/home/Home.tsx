@@ -15,7 +15,7 @@ export const Home = () => {
           <S.ContainerDivContentDevText>
             <S.StyleContentParagraph>&nbsp;&nbsp;&nbsp;&nbsp; Olá, meu nome é Victor Bondezan. Sou programador Front-End
               focado em experiencia 3D, trabalhei e estudei por volta de 1 ano e meio na área, minha
-              experiencia última ocorreu em 2022 para a editora Eureka Digital, onde desenvolvi um projeto de foco
+              última experiencia ocorreu em 2022 para a editora Eureka Digital, onde desenvolvi um projeto de foco
               educacional, criando diversos jogos e mesclando em uma mesma plataforma para potencializar o aprendizado de
               crianças e adolescentes de forma lúdica em um ambiente imersivo. Agora busco uma nova oportunidade e
               novamente um projeto que me realize tanto quanto o ultimo que passou.
@@ -35,14 +35,12 @@ export const Home = () => {
           </S.ContainerDivContentDevGifTwo>
 
           <S.ContainerDivContentDevText>
-            <S.StyleContentParagraph>&nbsp;&nbsp;&nbsp;&nbsp; Utilizamos a principio A-Frame e posteriormente Three.js em uma aplicação adaptada a React.Js
+            <S.StyleContentParagraph>&nbsp;&nbsp;&nbsp;&nbsp; Utilizamos a principio A-Frame e posteriormente Three.js em uma aplicação componentizada de React.Js
               com TypeScript. Pessoalmente foi uma experiencia muito enriquecedora e um trabalho que me realizava pois sempre quis trabalhar
-              em projetos com potencial de mudar a vida das pessoas e influencia-las positivamente com educação. Também sou formado jornalista
-              e estagiei internamente para a Unip em um blog criado especialmente com objetivo de capacitar jovens que desejassem ingressar na
-              profissão, desde criança me considero um aficionado por temas que envolvam o estudo da ciência história, entao escrevi sobre assuntos
-              que envolvessem a ciência, tanto em história moderna dissertando sobre o histórico de golpes sofridos na Venezuela durante o auge da
-              última tentativa, quanto antiguidade principalmente que abordasse pré-história do Brasil pois me orgulho do pais que nasci e da
-              faceta acolhedora de seu povo.
+              em projetos com potencial para mudar a vida das pessoas do ponto de vista educacional. Também sou formado em jornalismo,
+              e atuiei como Estagiário num programa interno da Unip, um blog criado com objetivo de capacitar jovens que desejassem se tornar redatores,
+              gosto muito de assuntos que envolvam o tema Historia, portanto ao longo da experiencia dissertei sobre temas da historia recente e eventos
+              passados.
             </S.StyleContentParagraph>
           </S.ContainerDivContentDevText>
 

@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const Modal = styled.div`
+  //border: 3px solid blue;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: -30px;
-  //border: 3px solid blue;
   @media(max-width: 510px ) {
       margin-top: 0px; 
       overflow-x: scroll;   
@@ -15,15 +15,15 @@ export const Modal = styled.div`
 `
 
 export const ModalContent = styled.div`
-	position: relative;
   //border: 3px solid blue;
+	position: relative;
   
 `;
 
 export const ModalWrapper = styled.div`
+  //border: 3px solid blue;
   max-height: 74vh;
   max-width: 72vw;
-  //border: 3px solid blue;
   
 `;
 
