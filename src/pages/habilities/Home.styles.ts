@@ -94,10 +94,14 @@ export const ContainerFromModal = styled.div`
     align-items: center;
     flex-direction: row;
     @media(max-width: 510px ) {
-            width: 110px;
-            height: 200px;
-            right: 3px;
+            width: 75%;
+            height: 250px;
+            top: 370px;
+            right: 50%;
+            left: 12%;
             overflow: hidden;
+            position: absolute;
+
         }
 `;
 
