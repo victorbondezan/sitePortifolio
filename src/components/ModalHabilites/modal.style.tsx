@@ -8,9 +8,8 @@ export const Modal = styled.div`
   margin-top: -30px;
   //border: 3px solid blue;
   @media(max-width: 510px ) {
-      margin-top: 30px;  
+      margin-top: 0px; 
       overflow-x: scroll;   
-      
     }
 
 `

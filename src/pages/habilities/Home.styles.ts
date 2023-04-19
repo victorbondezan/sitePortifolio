@@ -95,11 +95,11 @@ export const ContainerFromModal = styled.div`
     flex-direction: row;
     @media(max-width: 510px ) {
             width: 75%;
-            height: 250px;
+            height: 330px;
             top: 370px;
             right: 50%;
             left: 12%;
-            overflow: hidden;
+            //overflow: hidden;
             position: absolute;
 
         }
