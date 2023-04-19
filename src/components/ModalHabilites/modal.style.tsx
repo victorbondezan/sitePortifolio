@@ -6,16 +6,25 @@ export const Modal = styled.div`
   justify-content: center;
   align-items: center;
   margin-top: -30px;
+  //border: 3px solid blue;
+  @media(max-width: 510px ) {
+      margin-top: 30px;  
+      overflow-x: scroll;   
+      
+    }
+
 `
 
 export const ModalContent = styled.div`
 	position: relative;
+  //border: 3px solid blue;
   
 `;
 
 export const ModalWrapper = styled.div`
   max-height: 74vh;
   max-width: 72vw;
+  //border: 3px solid blue;
   
 `;
 
@@ -25,6 +34,9 @@ export const Title = styled.h1`
   font-weight: bold;
   color: #AB6698;
   margin-bottom: 20px;
+  @media(max-width: 510px ) {
+          font-size: 25px;
+        }
 `;
 
 export const Paragraph = styled.p`
@@ -33,6 +45,11 @@ export const Paragraph = styled.p`
   color: #AB6698;
 	width: 90%;
 	line-height: 1.6;
+  @media(max-width: 510px ) {
+            width: 100%;
+            max-height: 215px;       
+          	line-height: 1.2;
+        }
 `;
 
 export const CloseButton = styled.button`
