@@ -26,9 +26,15 @@ export const ContainerDiv = styled.div`
     flex-direction: row;
     gap: 26px;
 
+    @media(max-width: 510px ) {
+            gap: 1.5px;
+            padding: 12px;
+        }
+        
     >img{
         height: 100px;
         width: 100px;
+       
     }
 `;
 
@@ -44,9 +50,14 @@ export const ContainerIcon = styled.div`
     flex-direction: column;
     gap: 10px;
 
+    @media(max-width: 510px ) {
+            gap: 2px
+        }
+        
     >img{
         height: 100px;
         width: 100px;
+       
     }
 `;
 
@@ -61,10 +72,14 @@ export const ContainerIconList = styled.div`
     align-items: center;
     flex-direction: row;
     gap: 26px;
+    @media(max-width: 510px ) {
+            gap: 2px
+        }
 
     >img{
         height: 100px;
         width: 100px;
+       
     }
 `;
 
@@ -78,6 +93,12 @@ export const ContainerFromModal = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    @media(max-width: 510px ) {
+            width: 110px;
+            height: 200px;
+            right: 3px;
+            overflow: hidden;
+        }
 `;
 
 export const Button = styled.div` 
@@ -97,6 +118,10 @@ export const Button = styled.div`
         width: 100px;
         border: 3px solid red;
         overflow: hidden;
+        @media(max-width: 510px ) {
+            width: 60px;
+            height: 60px
+        }
     }
 
 `;

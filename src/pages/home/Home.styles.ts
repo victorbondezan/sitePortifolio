@@ -17,6 +17,10 @@ export const ContainerDiv = styled.div`
     align-items: center;
     flex-direction: column;
     gap: 26px;
+    @media(max-width: 510px ) {
+            width: 100%;
+            font-size: 12px; 
+        }
 
     >h1{
         color: white;
@@ -43,6 +47,10 @@ export const ContainerDivContentDevGif = styled.div`
         width: 200px;
         border: 3px solid red;
         border-radius: 20px;
+        @media(max-width: 510px ) {
+            width: 100%;
+            max-height: 215px
+        }
     }
 
 `;
@@ -57,6 +65,10 @@ export const ContainerDivContentDevGifTwo = styled.div`
         width: 200px;
         border: 3px solid red;
         border-radius: 20px;
+        @media(max-width: 510px ) {
+            width: 100%;
+            max-height: 215px
+        }
     }
 
 `;
@@ -65,7 +77,7 @@ export const ContainerDivContentDevText = styled.div`
     display: flex;
     width: 50%;
     align-items: center;
-
+   
     
    
 `;
@@ -75,6 +87,12 @@ export const StyleContentParagraph = styled.p`
     color: white;
     font-size: 12px;
     text-align: left;
+    @media(max-width: 510px ) {
+            width: 100%;
+            height: 250px;
+            font-size: 12px;
+            overflow-x: scroll;   
+        }
 `;
 
 

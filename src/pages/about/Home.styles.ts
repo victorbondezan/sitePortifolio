@@ -32,6 +32,10 @@ export const ContainerDivContentDev = styled.div`
     gap: 50px;
     padding: 10px;
     justify-content: center;
+
+    @media(max-width: 510px ) {
+          gap: 20px;
+        }
 `;
 export const ContainerDivContentDevGif = styled.div`
     //border: 3px solid blue;
@@ -45,6 +49,11 @@ export const ContainerDivContentDevGif = styled.div`
         width: 700px;
         border: 3px solid red;
         border-radius: 20px;
+
+        @media(max-width: 510px ) {
+            width: 100%;
+            max-height: 200px
+        }
     }
 
 `;
@@ -55,7 +64,9 @@ export const ContainerDivContentDevText = styled.div`
     width: 50%;
     align-items: center;
 
-    
+    @media(max-width: 510px ) {
+          font-size: 15px;
+        }
    
 `;
 
