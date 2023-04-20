@@ -40,7 +40,7 @@ export const Habilities: React.FC<ModalProps> = () => {
               <S.Button onClick={() => setModal(item)} >
                 <img src="https://uploaddeimagens.com.br/images/004/375/452/original/ThreeJS.png?1677820576" alt="InterrogaçaoUm"  /> 
               </S.Button>)} 
-            {DBM.js.map((item) => 
+            {DBM.react.map((item) => 
               <S.Button onClick={() => setModal(item)} >
                 <img src="https://uploaddeimagens.com.br/images/004/375/453/original/ReactIcon.png?1677820578" alt="InterrogaçaoUm"  /> 
               </S.Button>)} 
