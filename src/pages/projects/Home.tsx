@@ -65,15 +65,16 @@ const Projects: React.FC<ModalProps> = ({ children }) => {
 
         <S.ContainerDivContentDev>
 
-          <S.StyleContentParagraph>&nbsp;&nbsp;&nbsp;&nbsp; Planejo lincar nesta página meus projetos mais recentes
-            para provar minhas habilidades, entre os produtos que estou desenvolvendo incluem:
+          <S.StyleContentParagraph>
+            &nbsp;&nbsp;&nbsp;&nbsp; Esta em construçao lincar nesta página meus projetos mais recentes
+            onde eu desafio minhas habilidades entre os projetos que estou desenvolvendo entre eles:
           </S.StyleContentParagraph>
 
           <S.StyleContentParagraph>
             <ul>
-              <li>Um blog com Layout emulando sites de jornal utilizando React com Typescript e Styled Components;</li>
+              <li>Um portal de noticias um de jornal utilizando React com Typescript e Styled Components;</li>
               <li>Uma cena construída com Three.js mostrando algumas mecânicas interessantes;</li>
-              <li>Um projeto imersivo construído a partir de A-Frame que pode ser experimentado utilizando ou nao Óculos Virtuais;</li>
+              <li>Um projeto imersivo construído a partir de A-Frame que pode ser experimentado utilizando ou não Óculos Virtuais;</li>
               <li>E uma pequena Novel Game aos moldes dos primeiros jogos de 1980 inspirados em livros jogos;</li>
             </ul>
           </S.StyleContentParagraph>

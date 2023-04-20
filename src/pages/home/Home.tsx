@@ -13,12 +13,12 @@ export const Home = () => {
 
         <S.ContainerDivContentDev>
           <S.ContainerDivContentDevText>
-            <S.StyleContentParagraph>&nbsp;&nbsp;&nbsp;&nbsp; Olá, meu nome é Victor Bondezan. Sou programador Front-End
-              focado em experiencia 3D, trabalhei e estudei por volta de 1 ano e meio na área, minha
-              última experiencia ocorreu em 2022 para a editora Eureka Digital, onde desenvolvi um projeto de foco
+            <S.StyleContentParagraph>&nbsp;&nbsp;&nbsp;&nbsp; Olá. Meu nome é Victor Bondezan. Sou programador Front-End
+              focado em experiencia 3D. Trabalhei e estudei por volta de 1 ano e meio nessa área, minha
+              última experiencia ocorreu em 2022 na editora Eureka Digital, onde desenvolvi um projeto de foco
               educacional, criando diversos jogos e mesclando em uma mesma plataforma para potencializar o aprendizado de
-              crianças e adolescentes de forma lúdica em um ambiente imersivo. Agora busco uma nova oportunidade e
-              novamente um projeto que me realize tanto quanto o ultimo que passou.
+              crianças e adolescentes de forma lúdica, em um ambiente imersivo. Agora busco uma nova oportunidade em
+              um projeto que me realize tanto quanto o ultimo que passou.
             </S.StyleContentParagraph>
 
           </S.ContainerDivContentDevText>
@@ -28,7 +28,7 @@ export const Home = () => {
           </S.ContainerDivContentDevGif>
         </S.ContainerDivContentDev>
 
-        <h1>Outras Experiencias</h1>
+        <h1>Desenvolvimento Profissional</h1>
         <S.ContainerDivContentDev>
           <S.ContainerDivContentDevGifTwo>
             <img src="https://uploaddeimagens.com.br/images/004/410/267/original/AvatarQuaseFinalizadoReforcarFundo.gif?1680043174" alt="Minha Primeira Gif" />
@@ -36,9 +36,9 @@ export const Home = () => {
 
           <S.ContainerDivContentDevText>
             <S.StyleContentParagraph>&nbsp;&nbsp;&nbsp;&nbsp; Utilizamos a principio A-Frame e posteriormente Three.js em uma aplicação componentizada de React.Js
-              com TypeScript. Pessoalmente foi uma experiencia muito enriquecedora e um trabalho que me realizava pois sempre quis trabalhar
-              em projetos com potencial para mudar a vida das pessoas do ponto de vista educacional. Também sou formado em jornalismo,
-              e atuiei como Estagiário num programa interno da Unip, um blog criado com objetivo de capacitar jovens que desejassem se tornar redatores,
+              com TypeScript. Pessoalmente, foi uma experiencia muito enriquecedora e um trabalho que me realizou, pois sempre quis trabalhar
+              em projetos com potencial para mudar a vida das pessoas, do ponto de vista educacional. Também sou formado em jornalismo
+              e atuiei como Estagiário num programa interno da Unip, um blog criado com objetivo de capacitar jovens que desejassem se tornar redatores.
               gosto muito de assuntos que envolvam o tema Historia, portanto ao longo da experiencia dissertei sobre temas da historia recente e eventos
               passados.
             </S.StyleContentParagraph>
