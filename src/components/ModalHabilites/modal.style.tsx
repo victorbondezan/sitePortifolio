@@ -6,11 +6,14 @@ export const Modal = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -30px;
-  @media(max-width: 510px ) {
-      margin-top: 0px; 
-      overflow-x: scroll;   
-    }
+  @media(max-width: 1440px ) { // mobile 360p - 759p
+    margin-top: -30px;
+  }
+  @media(max-width: 1023px ) { // tablet 760p - 1023p
+    margin-top: 0px; 
+    overflow-x: scroll;
+  }
+ 
 
 `
 
@@ -33,22 +36,30 @@ export const Title = styled.h1`
   font-weight: bold;
   color: #AB6698;
   margin-bottom: 20px;
-  @media(max-width: 510px ) {
+  @media(max-width: 1023px ) {
           font-size: 25px;
         }
 `;
 
 export const Paragraph = styled.p`
-  font-size: 15px;
+  font-size: 15px; //talvez coloque em padrao
   font-family: 'Roboto', sans-serif;
-  color: #AB6698;
-	width: 90%;
-	line-height: 1.6;
-  @media(max-width: 510px ) {
-            width: 100%;
-            max-height: 215px;       
-          	line-height: 1.2;
-        }
+  color: #AB6698; 
+  @media(max-width: 759px ) { // mobile 360p - 759p
+    width: 100%;
+    max-height: 215px;       
+    line-height: 1.2;
+  }
+  @media(max-width: 1023px ) { // tablet 760p - 1023p
+    width: 95%;
+    max-height: 215px;       
+    line-height: 1.2;
+  }
+
+  @media(max-width: 1440px ) { // mobile 1024p - 1440p
+    width: 90%;
+    line-height: 1.6;  
+  }
 `;
 
 export const CloseButton = styled.button`

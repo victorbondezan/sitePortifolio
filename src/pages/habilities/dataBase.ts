@@ -23,6 +23,7 @@ export const react = [
   {
     title: 'React.JS',
     content: ' O React (também denominado React.js ou ReactJS) é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web. ---- Criado em 2011 pelo Facebook, com a criação de views declarativas e baseando-se em componentes, possuía o intuito de otimizar a atualização e a sincronização de atividades simultâneas no feed de notícias da rede social e melhorar a manutenção de código.',
+    //futuro contentDois: ''
   }
 ]
 

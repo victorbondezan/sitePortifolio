@@ -15,7 +15,6 @@ export const Container = styled.section`
 
 export const ContainerDiv = styled.div` 
     display: flex;
-    padding: 15px;
     border: 3px solid red;
     border-radius: 20px;
     height: 80%;
@@ -23,12 +22,22 @@ export const ContainerDiv = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    gap: 26px;
-
-    @media(max-width: 510px ) {
+    @media(max-width: 759px ) { // mobile 360p - 759p
+        padding: 12px;
+        gap: 1.5px;
+    };
+    @media(max-width: 1023px ) { // tablet 760p - 1023p
+        padding: 15px;
+        gap: 26px;
+    };
+    @media(max-width: 1440px ) { // browser 1024p - 1440p
+        padding: 17px;
+        gap: 29px;
+    };
+    /* @media(max-width: 510px ) { // provisorio
             gap: 1.5px;
             padding: 12px;
-        }
+        } */
         
     >img{
         height: 100px;
@@ -38,20 +47,27 @@ export const ContainerDiv = styled.div`
 `;
 
 export const ContainerIcon = styled.div` 
+    //border: 3px solid red;
     display: flex;
     padding: 5px;
-    //border: 3px solid red;
-    //border-radius: 20px;
     height: 80%;
     width: 80%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 10px;
-
-    @media(max-width: 510px ) {
+    
+    @media(max-width: 759px ) { // mobile 360p - 759p
+        gap: 2px
+    }
+    @media(max-width: 1023px ) { // tablet 760p - 1023p
+        gap: 10px;
+    }
+    @media(max-width: 1440px ) { // browser 1024p - 1440p
+        gap: 12px;
+    } 
+    /* @media(max-width: 510px ) { // provisorio
             gap: 2px
-        }
+        } */
         
     >img{
         height: 100px;
@@ -62,18 +78,26 @@ export const ContainerIcon = styled.div`
 
 export const ContainerIconList = styled.div` 
     display: flex;
-    //padding: 20px;
     //border: 3px solid red;
-    //border-radius: 20px;
     height: 80%;
     width: 80%;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    gap: 26px;
-    @media(max-width: 510px ) {
+    @media(max-width: 1440px ) { // browser 1024p - 1440p
+        gap: 28px;
+    };
+    @media(max-width: 1023px ) { // tablet 760p - 1023p
+        gap: 26px;
+    };
+    @media(max-width: 759px ) { // mobile 360p - 759p
+        gap: 2px
+    };
+   
+    
+    /* @media(max-width: 510px ) { // provisorio
             gap: 2px
-        }
+        } */
 
     >img{
         height: 100px;
@@ -87,21 +111,33 @@ export const ContainerFromModal = styled.div`
     display: flex;
     padding: 20px;
     border: 3px solid red;
-    height: 430px;
-    width: 80%;
+   
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    @media(max-width: 510px ) {
-            width: 75%;
-            height: 330px;
-            top: 370px;
-            right: 50%;
-            left: 12%;
-            //overflow: hidden;
-            position: absolute;
-
-        }
+    @media(max-width: 1440px ) { // mobile 360p - 759p
+        height: 450px;
+        width: 80%;
+    }
+    @media(max-width: 1023px ) { // tablet 760p - 1023p
+        height: 360px;
+        width: 70%;
+        top: 595px;
+        right: 50%;
+        left: 14%;
+        bottom: 12px;
+        overflow: hidden;
+        overflow-x: scroll;   
+        position: absolute;
+    }
+    @media(max-width: 759px ) { // browser 1024p - 1440p
+        height: 330px;
+        width: 75%;
+        top: 595px;
+        right: 50%;
+        left: 12%;
+        position: absolute;
+    } 
 `;
 
 export const Button = styled.div` 
@@ -121,10 +157,18 @@ export const Button = styled.div`
         width: 100px;
         border: 3px solid red;
         overflow: hidden;
-        @media(max-width: 510px ) {
+        @media(max-width: 1440px ) { // browser 1024p - 1440p
+            height: 120px;
+            width: 120px;
+        }; 
+        @media(max-width: 1023px ) { // tablet 760p - 1023p
+            height: 100px;
+            width: 100px;
+        };
+        @media(max-width: 759px ) { // mobile 360p - 759p
             width: 60px;
             height: 60px
-        }
+        };     
     }
 
 `;
