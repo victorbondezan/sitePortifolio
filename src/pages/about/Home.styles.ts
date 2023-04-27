@@ -53,23 +53,30 @@ export const ContainerDivContentDevGif = styled.div`
     color: white;  
     width: 90%;
     justify-content: center; 
-    >img{
-        border: 3px solid red;
-        border-radius: 20px;
-        @media(max-width: 759px ) { // mobile 360p - 759p
+    @media (min-width: 360px) and (max-width: 759px ) { // mobile 360p - 759p
+        >img{
+            border: 3px solid red;
+            border-radius: 20px;
+            height: 150px;
             width: 100%;
-            max-height: 200px
         }
-        @media(max-width: 1023px ) { // tablet 760p - 1023p
-            width: 100%;
-            max-height: 400px
+    };
+    @media (min-width: 760px) and (max-width: 1023px ) { // tablet 760p - 1023p
+        >img{
+            border: 3px solid red;
+            border-radius: 20px;
+            height: 200px;
+            width: 75%;
         }
-        @media(max-width: 1440px) { // browser 1024p - 1440p
-            height: 400px;
-            width: 700px;
+    };
+    @media (min-width: 1024px) and (max-width: 1440px) { // browser 1024p - 1440p
+        >img{
+            border: 3px solid red;
+            border-radius: 20px;
+            height: 250px;
+            width: 80%;
         }
-    }
-
+    };
 `;
 
 export const ContainerDivContentDevText = styled.div`

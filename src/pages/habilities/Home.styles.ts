@@ -22,22 +22,18 @@ export const ContainerDiv = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    @media(max-width: 759px ) { // mobile 360p - 759p
+    @media (min-width: 1024px) and (max-width: 759px ) { // mobile 360p - 759p
         padding: 12px;
         gap: 1.5px;
     };
-    @media(max-width: 1023px ) { // tablet 760p - 1023p
+    @media (min-width: 760px) and (max-width: 1023px ) { // tablet 760p - 1023p
         padding: 15px;
         gap: 26px;
     };
-    @media(max-width: 1440px ) { // browser 1024p - 1440p
+    @media (min-width: 360px) and (max-width: 1440px ) { // browser 1024p - 1440p
         padding: 17px;
         gap: 29px;
     };
-    /* @media(max-width: 510px ) { // provisorio
-            gap: 1.5px;
-            padding: 12px;
-        } */
         
     >img{
         height: 100px;
@@ -56,18 +52,15 @@ export const ContainerIcon = styled.div`
     align-items: center;
     flex-direction: column;
     
-    @media(max-width: 759px ) { // mobile 360p - 759p
+    @media (min-width: 1024px) and (max-width: 759px ) { // mobile 360p - 759p
         gap: 2px
     }
-    @media(max-width: 1023px ) { // tablet 760p - 1023p
+    @media (min-width: 760px) and (max-width: 1023px ) { // tablet 760p - 1023p
         gap: 10px;
     }
-    @media(max-width: 1440px ) { // browser 1024p - 1440p
+    @media (min-width: 360px) and (max-width: 1440px ) { // browser 1024p - 1440p
         gap: 12px;
     } 
-    /* @media(max-width: 510px ) { // provisorio
-            gap: 2px
-        } */
         
     >img{
         height: 100px;
@@ -84,13 +77,13 @@ export const ContainerIconList = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    @media(max-width: 1440px ) { // browser 1024p - 1440p
+    @media (min-width: 1024px) and (max-width: 1440px ) { // browser 1024p - 1440p
         gap: 28px;
     };
-    @media(max-width: 1023px ) { // tablet 760p - 1023p
+    @media (min-width: 760px) and (max-width: 1023px ) { // tablet 760p - 1023p
         gap: 26px;
     };
-    @media(max-width: 759px ) { // mobile 360p - 759p
+    @media (min-width: 360px) and (max-width: 759px ) { // mobile 360p - 759p
         gap: 2px
     };
    
@@ -115,11 +108,11 @@ export const ContainerFromModal = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    @media(max-width: 1440px ) { // mobile 360p - 759p
+    @media (min-width: 1024px) and (max-width: 1440px ) { // mobile 360p - 759p
         height: 450px;
         width: 80%;
     }
-    @media(max-width: 1023px ) { // tablet 760p - 1023p
+    @media (min-width: 760px) and (max-width: 1023px ) { // tablet 760p - 1023p
         height: 360px;
         width: 70%;
         top: 595px;
@@ -130,10 +123,10 @@ export const ContainerFromModal = styled.div`
         overflow-x: scroll;   
         position: absolute;
     }
-    @media(max-width: 759px ) { // browser 1024p - 1440p
+    @media (min-width: 360px) and (max-width: 759px ) { // browser 1024p - 1440p
         height: 330px;
         width: 75%;
-        top: 595px;
+        top: 400px;
         right: 50%;
         left: 12%;
         position: absolute;
@@ -157,15 +150,15 @@ export const Button = styled.div`
         width: 100px;
         border: 3px solid red;
         overflow: hidden;
-        @media(max-width: 1440px ) { // browser 1024p - 1440p
+        @media (min-width: 1024px) and (max-width: 1440px ) { // browser 1024p - 1440p
             height: 120px;
             width: 120px;
         }; 
-        @media(max-width: 1023px ) { // tablet 760p - 1023p
+        @media (min-width: 760px) and (max-width: 1023px ) { // tablet 760p - 1023p
             height: 100px;
             width: 100px;
         };
-        @media(max-width: 759px ) { // mobile 360p - 759p
+        @media (min-width: 360px) and (max-width: 759px ) { // mobile 360p - 759p
             width: 60px;
             height: 60px
         };     
